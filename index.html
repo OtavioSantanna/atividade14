@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        Nome: <input type="text" class="caixa_larga"> <br> <br>
+        Endereço: <input type="text" class="caixa_larga"> <br> <br>
+        Cidade: <input type="text" class="caixa_larga"> <br> <br>
+        Estado: 
+        <select id="estado" class="estado">
+            <option>Rio de Janeiro</option>
+            <option>São Paulo</option>
+            <option>Paraná</option>
+            <option>Santa Catarina</option>
+            <option>Rio Grande do Sul</option>
+        </select>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados  profissionais</legend>
+        Natureza do Cargo
+        <br> <br>
+            <input type="radio" class="cargos" id="gerencia" name="cargos"> Gerência &nbsp;  &nbsp;
+            <input type="radio" class="cargos" id="Financeiro" name="cargos"> Financeiro &nbsp;  &nbsp;
+            <input type="radio" class="cargos" id="Recepção" name="cargos"> Recepção &nbsp;  &nbsp;
+            <input type="radio" class="cargos" id="Administrativo" name="cargos"> Administrativo &nbsp;  &nbsp;
+            <input type="radio" class="cargos" id="Jurídico" name="cargos"> Jurídico &nbsp;  &nbsp;
+        <br> <br>
+        Área de interesse
+        <br> <br>
+            <input type="checkbox" class="areas" id="computação"> computação &nbsp;
+            <input type="checkbox" class="areas" id="Biologia"> Biologia &nbsp;
+            <input type="checkbox" class="areas" id="Meio Ambiente"> Meio Ambiente &nbsp;
+            <input type="checkbox" class="areas" id="Engenharia"> Engenharia &nbsp;
+            <input type="checkbox" class="areas" id="Historia"> Historia &nbsp;
+            <br> <br>
+            Mini curriculo: <textarea class="texto" id="curriculo"></textarea>
+    </fieldset>
+    <button class="botao">Enviar</button>
+    <button class="botao">Limpar</button>
+</body>
+</html>
